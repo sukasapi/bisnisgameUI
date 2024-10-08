@@ -1,23 +1,24 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Freedash Template - The Ultimate Multipurpose admin template</title>
-    <!-- Custom CSS -->
-    <link href="./assets/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <link href="./assets/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="./assets/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link href="./assets/dist/css/style.min.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
+<head><base href="">
+		<title>BizEmu</title>
+		<meta name="description" content="Aplikasi Simulasi Bisnis LPP Agro Nusantara" />
+		<meta name="keywords" content="simulasi,bisnis,permainan, simulasi bisnis, management" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8" />
+		<meta property="og:locale" content="id_ID" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Aplikasi Simulasi Bisnis - LPPAN" />
+		<meta property="og:url" content="https://kurniafedora.com" />
+		<meta property="og:site_name" content="Kurnia Fedora " />
+		<link rel="canonical" href="Https://kurniafedora.com" />
+		<link rel="shortcut icon" href="./assets/media/logos/favicon.ico" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Page Vendor Stylesheets(used by this page)-->
+		<link href="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="./assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="./assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+	</head>
