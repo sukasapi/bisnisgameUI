@@ -3,7 +3,7 @@
 						<!--begin::Container-->
 						<div id="kt_toolbar_container" class="container-xxl d-flex flex-stack flex-wrap">
 							<!--begin::Title-->
-							<h3 class="text-white fw-bolder fs-2qx me-5"><i class="fa fa-coins fs-4x" style="color:#FFD700"></i>  Simulasi Bisnis PT. LPP Agro Nusantara</h3>
+							<h3 class="text-white fw-bolder fs-2qx me-5">  <?=$_SESSION['title']?></h3>
 							<!--begin::Title-->
 							<!--begin::Actions-->
 							<div class="d-flex align-items-center flex-wrap py-2">
@@ -752,7 +752,18 @@
 								</div>
 								<!--end::Search-->
 								<!--begin::Button-->
-								<a href="#" class="btn btn-success my-2" tooltip="New App" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">New Goal</a>
+                                <?php 
+                                        if(isset($_SESSION['idx']) && $_SESSION['idx']=="list"){
+                                ?>
+                                        <a href="#" class="btn btn-success my-2" tooltip="Buat Simulasi Baru" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Tambah</a>
+
+                                <?php        }else{  
+                                ?>
+                                        <a href="#" class="btn btn-primary my-2" tooltip="Pencarian" >Cari</a>
+                                <?php
+                                        }
+                                ?>
+								
 								<!--end::Button-->
 							</div>
 							<!--end::Actions-->

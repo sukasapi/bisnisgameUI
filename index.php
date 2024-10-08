@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<?php 
+   session_start();
+   $_SESSION['title']="<i class='fa fa-coins fs-4x' style='color:#FFD700'></i>  Simulasi Bisnis PT.LPP Agro Nusantara";
+   $_SESSION['idx']="home";
+?>
 <html lang="en">
 	<!--begin::Head-->
 	<?=include_once("./header.php");?>
@@ -2906,20 +2910,8 @@
 			<!--end::Svg Icon-->
 		</div>
 		<!--end::Scrolltop-->
-		<!--end::Main-->
-		<script>var hostUrl = "./assets/";</script>
-		<!--begin::Javascript-->
-		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="./assets/plugins/global/plugins.bundle.js"></script>
-		<script src="./assets/js/scripts.bundle.js"></script>
-		<!--end::Global Javascript Bundle-->
-		<!--begin::Page Vendors Javascript(used by this page)-->
-		<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-		<!--end::Page Vendors Javascript-->
-		<!--begin::Page Custom Javascript(used by this page)-->
-		<script src="./assets/js/custom/widgets.js"></script>
-		<!--end::Page Custom Javascript-->
-		<!--end::Javascript-->
+        <?=include_once("./script.php");?>
+	
 	</body>
 	<!--end::Body-->
 </html>

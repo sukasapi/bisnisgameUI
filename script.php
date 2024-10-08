@@ -1,18 +1,14 @@
-<script src="./assets/assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="./assets/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- apps -->
-    <!-- apps -->
-    <script src="./assets/dist/js/app-style-switcher.js"></script>
-    <script src="./assets/dist/js/feather.min.js"></script>
-    <script src="./assets/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="./assets/dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="./assets/dist/js/custom.min.js"></script>
-    <!--This page JavaScript -->
-    <script src="./assets/assets/extra-libs/c3/d3.min.js"></script>
-    <script src="./assets/assets/extra-libs/c3/c3.min.js"></script>
-    <script src="./assets/assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="./assets/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="./assets/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="./assets/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="./assets/dist/js/pages/dashboards/dashboard1.min.js"></script>
+	<!--end::Main-->
+    <script>var hostUrl = "./assets/";</script>
+		<!--begin::Javascript-->
+		<!--begin::Global Javascript Bundle(used by all pages)-->
+		<script src="./assets/plugins/global/plugins.bundle.js"></script>
+		<script src="./assets/js/scripts.bundle.js"></script>
+		<!--end::Global Javascript Bundle-->
+		<!--begin::Page Vendors Javascript(used by this page)-->
+		<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<!--end::Page Vendors Javascript-->
+		<!--begin::Page Custom Javascript(used by this page)-->
+		<script src="./assets/js/custom/widgets.js"></script>
+		<!--end::Page Custom Javascript-->
+		<!--end::Javascript-->
