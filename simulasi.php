@@ -82,7 +82,7 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="../dist/account/overview.html" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Brad Simmons</a>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Brad Simmons</a>
 																				<span class="text-gray-400 fw-bold d-block">HTML, JS, ReactJS</span>
 																			</div>
 																		</div>
@@ -171,7 +171,7 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="../dist/account/overview.html" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Jessie Clarcson</a>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Jessie Clarcson</a>
 																				<span class="text-gray-400 fw-bold d-block">C#, ASP.NET, MS SQL</span>
 																			</div>
 																		</div>
@@ -260,7 +260,7 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="../dist/account/overview.html" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Lebron Wayde</a>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Lebron Wayde</a>
 																				<span class="text-gray-400 fw-bold d-block">PHP, Laravel, VueJS</span>
 																			</div>
 																		</div>
@@ -349,7 +349,7 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="../dist/account/overview.html" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Natali Trump</a>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Natali Trump</a>
 																				<span class="text-gray-400 fw-bold d-block">Python, ReactJS</span>
 																			</div>
 																		</div>
@@ -438,7 +438,7 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="../dist/account/overview.html" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Carles Puyol</a>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Carles Puyol</a>
 																				<span class="text-gray-400 fw-bold d-block">PHP, SQLite, Artisan CLI</span>
 																			</div>
 																		</div>
@@ -2030,7 +2030,7 @@
 					<!--begin::Modal header-->
 					<div class="modal-header">
 						<!--begin::Modal title-->
-						<h2>Create App</h2>
+						<h2>Buat Simulasi baru</h2>
 						<!--end::Modal title-->
 						<!--begin::Close-->
 						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
@@ -2911,19 +2911,7 @@
 		</div>
 		<!--end::Scrolltop-->
 		<!--end::Main-->
-		<script>var hostUrl = "./assets/";</script>
-		<!--begin::Javascript-->
-		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="./assets/plugins/global/plugins.bundle.js"></script>
-		<script src="./assets/js/scripts.bundle.js"></script>
-		<!--end::Global Javascript Bundle-->
-		<!--begin::Page Vendors Javascript(used by this page)-->
-		<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-		<!--end::Page Vendors Javascript-->
-		<!--begin::Page Custom Javascript(used by this page)-->
-		<script src="./assets/js/custom/widgets.js"></script>
-		<!--end::Page Custom Javascript-->
-		<!--end::Javascript-->
+		<?=include_once("./script.php");?>
 	</body>
 	<!--end::Body-->
 </html>
