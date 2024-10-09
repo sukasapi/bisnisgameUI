@@ -755,8 +755,8 @@
                                 <?php 
                                         if(isset($_SESSION['idx']) && $_SESSION['idx']=="list"){
                                 ?>
-                                        <a href="#" class="btn btn-success my-2" tooltip="Buat Simulasi Baru" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Tambah</a>
-
+                                        <!--<a href="./addsimulasi.php" class="btn btn-success my-2" tooltip="Buat Simulasi Baru" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Tambah</a>-->
+										<a href="./create_simulasi.php" class="btn btn-success my-2" tooltip="Buat Simulasi Baru" >Tambah</a>
                                 <?php        }else{  
                                 ?>
                                         <a href="#" class="btn btn-primary my-2" tooltip="Pencarian" >Cari</a>
