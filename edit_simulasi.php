@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php 
   
-   $_SESSION['title']=" <i class='fa fa-file-new fs-4x' style='color:#FFD700'></i>   Pembuatan Simulasi ";
+   $_SESSION['title']=" <i class='fa fa-file-new fs-4x' style='color:#FFD700'></i>   Edit Simulasi ";
    $_SESSION['idx']="form";
 ?>
 <html lang="en">
@@ -47,123 +47,127 @@
                                         <!--begin::Nav-->
                                         <div class="stepper-nav flex-cente">
                                             <!--begin::Step 1-->
-                                            <div class="stepper-item me-5 current" data-kt-stepper-element="nav">
-                                                <!--begin::Wrapper-->
-                                                <div class="stepper-wrapper d-flex align-items-center">
-                                                    <!--begin::Icon-->
-                                                    <div class="stepper-icon w-40px h-40px">
-                                                        <i class="stepper-check fas fa-check"></i>
-                                                        <span class="stepper-number">1</span>
-                                                    </div>
-                                                    <!--end::Icon-->
+											<div class="stepper-item mx-8 my-4 current" data-kt-stepper-element="nav" data-kt-stepper-action="step">
+												<!--begin::Wrapper-->
+												<div class="stepper-wrapper d-flex align-items-center">
+													<!--begin::Icon-->
+													<div class="stepper-icon w-40px h-40px">
+														<i class="stepper-check fas fa-check"></i>
+														<span class="stepper-number">1</span>
+													</div>
+													<!--end::Icon-->
 
-                                                    <!--begin::Label-->
-                                                    <div class="stepper-label">
-                                                        <h3 class="stepper-title">
-                                                            Deskripsi Simulasi
-                                                        </h3>
+													<!--begin::Label-->
+													<div class="stepper-label">
+														<h3 class="stepper-title">
+															Initial
+														</h3>
 
-                                                        <div class="stepper-desc">
-                                                            Nama dan Deskripsi Simulasi
-                                                        </div>
-                                                    </div>
-                                                    <!--end::Label-->
-                                                </div>
-                                                <!--end::Wrapper-->
+														<div class="stepper-desc">
+															Deskripsi Simulasi
+														</div>
+													</div>
+													<!--end::Label-->
+												</div>
+												<!--end::Wrapper-->
 
-                                                <!--begin::Line-->
-                                                <div class="stepper-line h-40px"></div>
-                                                <!--end::Line-->
-                                            </div>
+												<!--begin::Line-->
+												<div class="stepper-line h-40px"></div>
+												<!--end::Line-->
+											</div>
                                             <!--end::Step 1-->
 
                                             <!--begin::Step 2-->
-                                            <div class="stepper-item me-5" data-kt-stepper-element="nav">
-                                                <!--begin::Wrapper-->
-                                                <div class="stepper-wrapper d-flex align-items-center">
-                                                    <!--begin::Icon-->
-                                                    <div class="stepper-icon w-40px h-40px">
-                                                        <i class="stepper-check fas fa-check"></i>
-                                                        <span class="stepper-number">2</span>
-                                                    </div>
-                                                    <!--begin::Icon-->
+											<div class="stepper-item mx-8 my-4 current" data-kt-stepper-element="nav" data-kt-stepper-action="step">
+												<!--begin::Wrapper-->
+												<div class="stepper-wrapper d-flex align-items-center">
+													<!--begin::Icon-->
+													<div class="stepper-icon w-40px h-40px">
+														<i class="stepper-check fas fa-check"></i>
+														<span class="stepper-number">2</span>
+													</div>
+													<!--end::Icon-->
 
-                                                    <!--begin::Label-->
-                                                    <div class="stepper-label">
-                                                        <h3 class="stepper-title">
-                                                            Team
-                                                        </h3>
+													<!--begin::Label-->
+													<div class="stepper-label">
+														<h3 class="stepper-title">
+															Team
+														</h3>
 
-                                                        <div class="stepper-desc">
-                                                            Team dan Team Leader
-                                                        </div>
-                                                    </div>
-                                                    <!--end::Label-->
-                                                </div>
-                                                <!--end::Wrapper-->
+														<div class="stepper-desc">
+															Team Management
+														</div>
+													</div>
+													<!--end::Label-->
+												</div>
+												<!--end::Wrapper-->
 
-                                                <!--begin::Line-->
-                                                <div class="stepper-line h-40px"></div>
-                                                <!--end::Line-->
-                                            </div>
+												<!--begin::Line-->
+												<div class="stepper-line h-40px"></div>
+												<!--end::Line-->
+											</div>
                                             <!--end::Step 2-->
 
                                             <!--begin::Step 3-->
-                                            <div class="stepper-item me-5" data-kt-stepper-element="nav">
-                                                <!--begin::Wrapper-->
-                                                <div class="stepper-wrapper d-flex align-items-center">
-                                                    <!--begin::Icon-->
-                                                    <div class="stepper-icon w-40px h-40px">
-                                                        <i class="stepper-check fas fa-check"></i>
-                                                        <span class="stepper-number">3</span>
-                                                    </div>
-                                                    <!--begin::Icon-->
+											<div class="stepper-item mx-8 my-4 current" data-kt-stepper-element="nav" data-kt-stepper-action="step">
+												<!--begin::Wrapper-->
+												<div class="stepper-wrapper d-flex align-items-center">
+													<!--begin::Icon-->
+													<div class="stepper-icon w-40px h-40px">
+														<i class="stepper-check fas fa-check"></i>
+														<span class="stepper-number">3</span>
+													</div>
+													<!--end::Icon-->
 
-                                                    <!--begin::Label-->
-                                                    <div class="stepper-label">
-                                                        <h3 class="stepper-title">
-                                                            Kondisi Simulasi
-                                                        </h3>
+													<!--begin::Label-->
+													<div class="stepper-label">
+														<h3 class="stepper-title">
+															Limit Simulasi
+														</h3>
 
-                                                        <div class="stepper-desc">
-                                                            Batas Permainan Selesai
-                                                        </div>
-                                                    </div>
-                                                    <!--end::Label-->
-                                                </div>
-                                                <!--end::Wrapper-->
+														<div class="stepper-desc">
+															Batas simulasi berakhir
+														</div>
+													</div>
+													<!--end::Label-->
+												</div>
+												<!--end::Wrapper-->
 
-                                                <!--begin::Line-->
-                                                <div class="stepper-line h-40px"></div>
-                                                <!--end::Line-->
-                                            </div>
+												<!--begin::Line-->
+												<div class="stepper-line h-40px"></div>
+												<!--end::Line-->
+											</div>
                                             <!--end::Step 3-->
 
                                             <!--begin::Step 4-->
-                                            <div class="stepper-item me-5" data-kt-stepper-element="nav">
-                                                <!--begin::Wrapper-->
-                                                <div class="stepper-wrapper d-flex align-items-center">
-                                                    <!--begin::Icon-->
-                                                    <div class="stepper-icon w-40px h-40px">
-                                                        <i class="stepper-check fas fa-check"></i>
-                                                        <span class="stepper-number">4</span>
-                                                    </div>
-                                                    <!--begin::Icon-->
+											<div class="stepper-item mx-8 my-4 current" data-kt-stepper-element="nav" data-kt-stepper-action="step">
+												<!--begin::Wrapper-->
+												<div class="stepper-wrapper d-flex align-items-center">
+													<!--begin::Icon-->
+													<div class="stepper-icon w-40px h-40px">
+														<i class="stepper-check fas fa-check"></i>
+														<span class="stepper-number">4</span>
+													</div>
+													<!--end::Icon-->
 
-                                                    <!--begin::Label-->
-                                                    <div class="stepper-label">
-                                                        <h3 class="stepper-title">
-                                                            Konfirmasi
-                                                        </h3>
+													<!--begin::Label-->
+													<div class="stepper-label">
+														<h3 class="stepper-title">
+															Konfirmasi
+														</h3>
 
-                                                        <div class="stepper-desc">
-                                                           Konfirmasi Pembuatan Simulasi
-                                                        </div>
-                                                    </div>
-                                                    <!--end::Label-->
-                                                </div>
-                                                <!--end::Wrapper-->
-                                            </div>
+														<div class="stepper-desc">
+															Konfirmasi pembuatan simulasi
+														</div>
+													</div>
+													<!--end::Label-->
+												</div>
+												<!--end::Wrapper-->
+
+												<!--begin::Line-->
+												<div class="stepper-line h-40px"></div>
+												<!--end::Line-->
+											</div>
                                             <!--end::Step 4-->
                                         </div>
                                         <!--end::Nav-->
@@ -184,7 +188,7 @@
                                                             <!--end::Label-->
 
                                                             <!--begin::Input-->
-                                                            <input type="text" class="form-control form-control-solid" name="n_simulasi" placeholder="Masukkan Nama Simulasi Maksimum 80 huruf" value=""/>
+                                                            <input type="text" disabled class="form-control form-control-solid" name="n_simulasi" placeholder="Masukkan Nama Simulasi Maksimum 80 huruf" value=""/>
                                                             <!--end::Input-->
                                                         </div>
                                                         <!--end::Input group-->

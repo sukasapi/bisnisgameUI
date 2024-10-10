@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <?php 
-  
    $_SESSION['title']=" <i class='fa fa-file-alt fs-4x' style='color:#FFD700'></i>   Daftar Simulasi ";
    $_SESSION['idx']="list";
 ?>
 <html lang="en">
 	<!--begin::Head-->
-	<?=include_once("./header.php");?>
+	<?php include_once("./header.php");?>
 	<!--end::Head-->
 	<!--begin::Body-->
 	<body id="kt_body" style="background-image: url(./assets/media/patterns/header-bg.png)" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled">
@@ -17,8 +16,8 @@
 			<div class="page d-flex flex-row flex-column-fluid">
 				<!--begin::Wrapper-->
 				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-                    <?=include_once("./navbar.php");?>
-                    <?=include("./breadcumber.php")?>;
+                    <?php include_once("./navbar.php");?>
+                    <?php include_once("./breadcumber.php");?>
 				
 					<!--begin::Container-->
 					<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
@@ -82,8 +81,8 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Brad Simmons</a>
-																				<span class="text-gray-400 fw-bold d-block">HTML, JS, ReactJS</span>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Simulasi Bisnis 1</a>
+																				<span class="text-gray-400 fw-bold d-block">Deskripsi Simulasi Bisnis 1</span>
 																			</div>
 																		</div>
 																	</td>
@@ -121,35 +120,17 @@
 																			<!--end::Heading-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
+																				<a href="./edit_simulasi.php" class="menu-link px-3"> Ubah Simulasi</a>
+																			</div>
+																			<!--end::Menu item-->
+																			<!--begin::Menu item-->
+																			<div class="menu-item px-3">
 																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
-																
 																			<!--begin::Menu item-->
-																			<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																				<a href="#" class="menu-link px-3">
-																					<span class="menu-title">Pengaturan Simulasi</span>
-																					<span class="menu-arrow"></span>
-																				</a>
-																				<!--begin::Menu sub-->
-																				<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Simulasi</a>
-																					</div>
-																					<!--end::Menu item-->
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Team</a>
-																					</div>
-																					<!--end::Menu item-->
-                                                                                    <!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Limit</a>
-																					</div>
-																					<!--end::Menu item-->
-																				</div>
-																				<!--end::Menu sub-->
+																			<div class="menu-item px-3">
+																				<a href="./list_vendor.php" class="menu-link px-3"> Manajemen Vendor</a>
 																			</div>
 																			<!--end::Menu item-->
 																		</div>
@@ -171,8 +152,8 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Jessie Clarcson</a>
-																				<span class="text-gray-400 fw-bold d-block">C#, ASP.NET, MS SQL</span>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Simulasi Bisnis 2</a>
+																				<span class="text-gray-400 fw-bold d-block">Deskripsi Simulasi Bisnis 2</span>
 																			</div>
 																		</div>
 																	</td>
@@ -210,35 +191,17 @@
 																			<!--end::Heading-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
+																				<a href="./edit_simulasi.php" class="menu-link px-3"> Ubah Simulasi</a>
+																			</div>
+																			<!--end::Menu item-->
+																			<!--begin::Menu item-->
+																			<div class="menu-item px-3">
 																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
-																
 																			<!--begin::Menu item-->
-																			<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																				<a href="#" class="menu-link px-3">
-																					<span class="menu-title">Pengaturan Simulasi</span>
-																					<span class="menu-arrow"></span>
-																				</a>
-																				<!--begin::Menu sub-->
-																				<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Simulasi</a>
-																					</div>
-																					<!--end::Menu item-->
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Team</a>
-																					</div>
-																					<!--end::Menu item-->
-                                                                                    <!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Limit</a>
-																					</div>
-																					<!--end::Menu item-->
-																				</div>
-																				<!--end::Menu sub-->
+																			<div class="menu-item px-3">
+																				<a href="./list_vendor.php" class="menu-link px-3"> Manajemen Vendor</a>
 																			</div>
 																			<!--end::Menu item-->
 																		</div>
@@ -260,8 +223,8 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Lebron Wayde</a>
-																				<span class="text-gray-400 fw-bold d-block">PHP, Laravel, VueJS</span>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Simulasi Bisnis 1</a>
+																				<span class="text-gray-400 fw-bold d-block">Deskripsi Simulasi Bisnis 1</span>
 																			</div>
 																		</div>
 																	</td>
@@ -299,35 +262,17 @@
 																			<!--end::Heading-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
+																				<a href="./edit_simulasi.php" class="menu-link px-3"> Ubah Simulasi</a>
+																			</div>
+																			<!--end::Menu item-->
+																			<!--begin::Menu item-->
+																			<div class="menu-item px-3">
 																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
-																
 																			<!--begin::Menu item-->
-																			<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																				<a href="#" class="menu-link px-3">
-																					<span class="menu-title">Pengaturan Simulasi</span>
-																					<span class="menu-arrow"></span>
-																				</a>
-																				<!--begin::Menu sub-->
-																				<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Simulasi</a>
-																					</div>
-																					<!--end::Menu item-->
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Team</a>
-																					</div>
-																					<!--end::Menu item-->
-                                                                                    <!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Limit</a>
-																					</div>
-																					<!--end::Menu item-->
-																				</div>
-																				<!--end::Menu sub-->
+																			<div class="menu-item px-3">
+																				<a href="./list_vendor.php" class="menu-link px-3"> Manajemen Vendor</a>
 																			</div>
 																			<!--end::Menu item-->
 																		</div>
@@ -349,8 +294,8 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Natali Trump</a>
-																				<span class="text-gray-400 fw-bold d-block">Python, ReactJS</span>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Simulasi Bisnis 3</a>
+																				<span class="text-gray-400 fw-bold d-block">Deskripsi Simulasi Bisnis 3</span>
 																			</div>
 																		</div>
 																	</td>
@@ -388,35 +333,17 @@
 																			<!--end::Heading-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
+																				<a href="./edit_simulasi.php" class="menu-link px-3"> Ubah Simulasi</a>
+																			</div>
+																			<!--end::Menu item-->
+																			<!--begin::Menu item-->
+																			<div class="menu-item px-3">
 																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
-																
 																			<!--begin::Menu item-->
-																			<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																				<a href="#" class="menu-link px-3">
-																					<span class="menu-title">Pengaturan Simulasi</span>
-																					<span class="menu-arrow"></span>
-																				</a>
-																				<!--begin::Menu sub-->
-																				<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Simulasi</a>
-																					</div>
-																					<!--end::Menu item-->
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Team</a>
-																					</div>
-																					<!--end::Menu item-->
-                                                                                    <!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Limit</a>
-																					</div>
-																					<!--end::Menu item-->
-																				</div>
-																				<!--end::Menu sub-->
+																			<div class="menu-item px-3">
+																				<a href="./list_vendor.php" class="menu-link px-3"> Manajemen Vendor</a>
 																			</div>
 																			<!--end::Menu item-->
 																		</div>
@@ -438,8 +365,8 @@
 																			</div>
 																			<!--end::Logo-->
 																			<div class="ps-3">
-																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Carles Puyol</a>
-																				<span class="text-gray-400 fw-bold d-block">PHP, SQLite, Artisan CLI</span>
+																				<a href="./simulasi_page.php" class="text-gray-800 fw-boldest fs-5 text-hover-primary mb-1">Simulasi Bisnis 5</a>
+																				<span class="text-gray-400 fw-bold d-block">Deskripsi Simulasi Bisnis 5</span>
 																			</div>
 																		</div>
 																	</td>
@@ -477,35 +404,17 @@
 																			<!--end::Heading-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
+																				<a href="./edit_simulasi.php" class="menu-link px-3"> Ubah Simulasi</a>
+																			</div>
+																			<!--end::Menu item-->
+																			<!--begin::Menu item-->
+																			<div class="menu-item px-3">
 																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
-																
 																			<!--begin::Menu item-->
-																			<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																				<a href="#" class="menu-link px-3">
-																					<span class="menu-title">Pengaturan Simulasi</span>
-																					<span class="menu-arrow"></span>
-																				</a>
-																				<!--begin::Menu sub-->
-																				<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Simulasi</a>
-																					</div>
-																					<!--end::Menu item-->
-																					<!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Team</a>
-																					</div>
-																					<!--end::Menu item-->
-                                                                                    <!--begin::Menu item-->
-																					<div class="menu-item px-3">
-																						<a href="#" class="menu-link px-3">Limit</a>
-																					</div>
-																					<!--end::Menu item-->
-																				</div>
-																				<!--end::Menu sub-->
+																			<div class="menu-item px-3">
+																				<a href="./list_vendor.php" class="menu-link px-3"> Manajemen Vendor</a>
 																			</div>
 																			<!--end::Menu item-->
 																		</div>
@@ -540,7 +449,7 @@
 						<!--end::Post-->
 					</div>
 					<!--end::Container-->
-                    <?=include_once("./footer.php")?>
+                    <?php include_once("./footer.php")?>
 				</div>
 				<!--end::Wrapper-->
 			</div>
@@ -2911,7 +2820,7 @@
 		</div>
 		<!--end::Scrolltop-->
 		<!--end::Main-->
-		<?=include_once("./script.php");?>
+		<?php include_once("./script.php");?>
 	</body>
 	<!--end::Body-->
 </html>

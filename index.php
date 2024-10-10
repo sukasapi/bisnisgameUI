@@ -6,7 +6,7 @@
 ?>
 <html lang="en">
 	<!--begin::Head-->
-	<?=include_once("./header.php");?>
+	<?php include_once("./header.php");?>
 	<!--end::Head-->
 	<!--begin::Body-->
 	<body id="kt_body" style="background-image: url(./assets/media/patterns/header-bg.png)" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled">
@@ -17,8 +17,8 @@
 			<div class="page d-flex flex-row flex-column-fluid">
 				<!--begin::Wrapper-->
 				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-                    <?=include_once("./navbar.php");?>
-                    <?=include_once("./breadcumber.php")?>;
+                    <?php include_once("./navbar.php");?>
+                    <?php include_once("./breadcumber.php")?>;
 				
 					<!--begin::Container-->
 					<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
@@ -540,7 +540,7 @@
 						<!--end::Post-->
 					</div>
 					<!--end::Container-->
-                    <?=include_once("./footer.php")?>
+                    <?php include_once("./footer.php")?>
 				</div>
 				<!--end::Wrapper-->
 			</div>
@@ -2898,7 +2898,7 @@
 		</div>
 		<!--end::Modal - New Target-->
 		<!--end::Modals-->
-        <?=include_once("./script.php");?>
+        <?php include_once("./script.php");?>
 	
 	</body>
 	<!--end::Body-->
