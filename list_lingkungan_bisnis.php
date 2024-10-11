@@ -39,147 +39,38 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-									<!--begin::Accordion-->
-									<div class="accordion accordion-icon-collapse" id="daftarPeriode">
-										<?php
-											for($i=1;$i<=12;$i++){
-												if($i==1){
+									<div class="row my-10">
+										<?php 
+                                            for($i=1;$i<=12;$i++){
+												if($i==1){		
 										?>
-												
-													<!--begin::Item-->
-													<div class="mb-5 mt-5">
-														<!--begin::Header-->
-														<div class="accordion-header py-3 d-flex collapsed" data-bs-toggle="collapse" data-bs-target="#bp<?=$i?>">
-															<span class="accordion-icon">
-																<i class="fas fa-solid fa-chevron-right"></i>
-															</span>
-															<h3 class="fs-4 fw-semibold mb-0 ms-4">Periode <?=$i?></h3>
-														</div>
-														<!--end::Header-->
+										<div class="col-md-3 col-xs-6 mb-6">
+											<button class="btn btn-flex btn-success px-2 infoBiz" data-token="<?=$i?>">
+												<i class="bi bi-check fs-3x "></i>
+												<span class="d-flex flex-column align-items-start ms-2">
+													<span class="fs-3 fw-bold">Periode <?=$i?></span>
+													<span class="fs-7">Info Lingkungan Bisnis</span>
+												</span>
+											</button>
+										</div>
 
-														<!--begin::Body-->
-														<div id="bp<?=$i?>" class="collapse show  fs-6 ps-10 mb-10" data-bs-parent="#bp<?=$i?>">
-															<div class="border border-gray-300 mx-auto">
-																<div class="my-5 mx-5">
-																	<label for="exampleFormControlInput1" class="required form-label">Produktivitas Orang Per Unit</label>
-																	<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																</div>
-																<div class="my-5 mx-5">
-																		<label for="exampleFormControlInput1" class="required form-label">Biaya Umum (Overhead)</label>
-																		<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																</div>
-																<div class="separator my-10"></div>
-																<div class="my-5 mx-5">
-																	<div class="row">
-																		<div class="col-md-12 col-xs-12">
-																			<h4>Biaya Penyimpanan</h4>
-																		</div>
-																		<div class="col-md-6 col-xs-12">
-																			<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
-																			<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																		</div>
-																		<div class="col-md-6 col-xs-12">
-																			<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
-																			<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																		</div>
-																	</div>
-																</div>
-																<div class="separator my-10"></div>	
-																<div class="my-5 mx-5">
-																		<div class="row">
-																			<div class="col-md-12 col-xs-12">
-																				<h4>Nilai Persediaan</h4>
-																			</div>
-																			<div class="col-md-6 col-xs-12">
-																				<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
-																				<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																			</div>
-																			<div class="col-md-6 col-xs-12">
-																				<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
-																				<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																			</div>
-																		</div>
-																</div>
-																<div class="my-10 mx-5 float-end">
-																<button class="btn btn-success hover-rotate-end">Simpan Periode <?=$i?></button>
-																</div>
-															</div>
-														</div>
-														<!--end::Body-->
-													</div>
-													<!--end::Item-->
 										<?php
-												}else{
+											}else{
 										?>
-													<!--begin::Item-->
-													<div class="mb-5">
-														<!--begin::Header-->
-														<div class="accordion-header py-3 d-flex collapsed" data-bs-toggle="collapse" data-bs-target="#bp<?=$i?>">
-															<span class="accordion-icon">
-																<i class="fas fa-solid fa-chevron-right"></i>
-															</span>
-															<h3 class="fs-4 fw-semibold mb-0 ms-4">Periode <?=$i?></h3>
-														</div>
-														<!--end::Header-->
-
-															<!--begin::Body-->
-															<div id="bp<?=$i?>" class="collapse  fs-6 ps-10 mb-10" data-bs-parent="#bp<?=$i?>">
-															<div class="border border-gray-300 mx-auto">
-																<div class="my-5 mx-5">
-																	<label for="exampleFormControlInput1" class="required form-label">Produktivitas Orang Per Unit</label>
-																	<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																</div>
-																<div class="my-5 mx-5">
-																		<label for="exampleFormControlInput1" class="required form-label">Biaya Umum (Overhead)</label>
-																		<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																</div>
-																<div class="separator my-10"></div>
-																<div class="my-5 mx-5">
-																	<div class="row">
-																		<div class="col-md-12 col-xs-12">
-																			<h4>Biaya Penyimpanan</h4>
-																		</div>
-																		<div class="col-md-6 col-xs-12">
-																			<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
-																			<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																		</div>
-																		<div class="col-md-6 col-xs-12">
-																			<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
-																			<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																		</div>
-																	</div>
-																</div>
-																<div class="separator my-10"></div>	
-																<div class="my-5 mx-5">
-																		<div class="row">
-																			<div class="col-md-12 col-xs-12">
-																				<h4>Nilai Persediaan</h4>
-																			</div>
-																			<div class="col-md-6 col-xs-12">
-																				<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
-																				<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																			</div>
-																			<div class="col-md-6 col-xs-12">
-																				<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
-																				<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
-																			</div>
-																		</div>
-																</div>
-																<div class="my-10 mx-5 float-end">
-																<button class="btn btn-success hover-rotate-end">Simpan Periode <?=$i?></button>
-																</div>
-															</div>
-														</div>
-														<!--end::Body-->
-													</div>
-													<!--end::Item-->
+										<div class="col-md-3 col-xs-6 mb-6">
+											<button class="btn btn-flex btn-light-primary px-2 infoBiz" data-token="<?=$i?>">
+												<i class="bi bi-gear fs-3x "></i>
+												<span class="d-flex flex-column align-items-start ms-2">
+													<span class="fs-3 fw-bold">Periode <?=$i?></span>
+													<span class="fs-7">Info Lingkungan Bisnis</span>
+												</span>
+											</button>
+										</div>
 										<?php
-												}
-											}		
+											}
+										}			
 										?>
-										<!--begin::Item-->
 									</div>
-									<!--end::Accordion-->
                                 </div>
                             </div>
 							<!--end::Index-->
@@ -1110,17 +1001,88 @@
 		<!--end::Exolore drawer-->
 		<!--end::Drawers-->
 		<!--begin::Modal-->
-		
+		<div class="modal fade" tabindex="-1" id="SetPeriod">
+			<div class="modal-dialog ">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Informasi Lingkungan Bisnis <br><span id="NPeriode"></span></h5>
+
+						<!--begin::Close-->
+						<div class="btn btn-icon btn-sm btn-active-light-danger ms-2" data-bs-dismiss="modal">
+						<i class="bi bi-x fs-2"></i>
+						</div>
+						<!--end::Close-->
+					</div>
+
+					<div class="modal-body">
+						<div class="border border-gray-300 mx-auto">		
+							<div class="my-5 mx-5">
+								<label for="exampleFormControlInput1" class="required form-label">Produktivitas Orang Per Unit</label>
+								<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+							</div>
+							<div class="my-5 mx-5">
+								<label for="exampleFormControlInput1" class="required form-label">Biaya Umum (Overhead)</label>
+								<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+							</div>
+							<div class="separator my-10"></div>
+							<div class="my-5 mx-5">
+								<div class="row">
+									<div class="col-md-12 col-xs-12">
+										<h4>Biaya Penyimpanan</h4>
+									</div>
+									<div class="col-md-6 col-xs-12">
+										<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
+										<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+									</div>
+									<div class="col-md-6 col-xs-12">
+										<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
+										<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+									</div>
+								</div>
+							</div>
+															
+							<div class="separator my-10"></div>		
+							<div class="my-5 mx-5">
+								<div class="row">
+									<div class="col-md-12 col-xs-12">
+										<h4>Nilai Persediaan</h4>
+									</div>
+									<div class="col-md-6 col-xs-12">
+										<label for="exampleFormControlInput1" class="required form-label">Bahan Baku</label>
+										<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+									</div>
+									<div class="col-md-6 col-xs-12">
+										<label for="exampleFormControlInput1" class="required form-label">Bahan Jadi</label>
+										<input type="email" class="form-control form-control-solid" placeholder="Example input"/>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-light" data-bs-dismiss="modal">Tutup</button>
+						<button type="button" class="btn btn-success">Simpan</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--end::Modal-->
 		<!--end::Main-->
         <?php include_once("./script.php");?>
 		<script>
 			$( document ).ready(function(){
-				$("#vendorList").DataTable({
-					"fixedHeader": {
-						"header":true
-					}
-				});
+				$(".infoBiz").on('click',function(){
+					var period=$(this).data('token');
+					openModal(period);
+
+				})
+
+
+				function openModal(n){
+					$('#SetPeriod').modal('show');
+					$("#NPeriode").html('Periode '+n);
+				}
 			})
 		</script>
 		<!--end::Page Custom Javascript-->

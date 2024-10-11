@@ -22,4 +22,12 @@
 		<link href="./assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="./assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Global Stylesheets Bundle-->
+		<style>
+			.card-buttons:before {
+				content: "";
+				display: block;
+				padding-top: 100%;
+				align-self: center!important;
+				}
+		</style>
 	</head>

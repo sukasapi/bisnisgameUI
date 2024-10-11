@@ -125,7 +125,7 @@
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
-																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
+																				<a href="./list_lingkungan_bisnis.php" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
@@ -196,7 +196,7 @@
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
-																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
+																				<a href="./list_lingkungan_bisnis.php" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
@@ -267,7 +267,7 @@
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
-																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
+																				<a href="./list_lingkungan_bisnis.php" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
@@ -338,7 +338,7 @@
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
-																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
+																				<a href="./list_lingkungan_bisnis.php" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
@@ -409,7 +409,7 @@
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
 																			<div class="menu-item px-3">
-																				<a href="#" class="menu-link px-3"> Lingkungan Bisnis</a>
+																				<a href="./list_lingkungan_bisnis.php" class="menu-link px-3"> Lingkungan Bisnis</a>
 																			</div>
 																			<!--end::Menu item-->
 																			<!--begin::Menu item-->
