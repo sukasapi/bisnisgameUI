@@ -26,8 +26,7 @@
 					<div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
 						<!--begin::Logo-->
 						<a href="./" class="mb-12">
-							<img alt="Logo" src="./assets/media/logos/logo-default.svg" class="h-30px theme-light-show">
-							<img alt="Logo" src="./assets/media/logos/logo-light.svg" class="h-30px theme-dark-show">
+							<img alt="Logo" src="./assets/media/logos/logo-trans.png" class="h-50px h-lg-65px logo-default" />
 						</a>     
 						<!--end::Logo-->
 
@@ -40,10 +39,10 @@
 					<div class="mb-10 text-center">
 						<!--begin::Link-->
 						<div class="text-gray-400 fw-semibold fs-4">
-							Already have an account?
+							Apakah anda sudah mendapatkan akses ke Simulasi?
 
-							<a href="./authentication/sign-in/basic.html" class="link-primary fw-bold">
-								Sign in here
+							<a href="./index.php" class="link-primary fw-bold">
+								Silahkan Masuk
 							</a>
 						</div>
 						<!--end::Link-->
@@ -65,28 +64,16 @@
 						<input class="form-control form-control-lg form-control-solid" type="password" placeholder="" name="confirm-password" autocomplete="off">
 					<div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div></div>
 					<!--end::Input group-->
-
-					<!--begin::Input group-->
-					<div class="fv-row mb-10 fv-plugins-icon-container">
-						<label class="form-check form-check-custom form-check-solid form-check-inline">
-							<input class="form-check-input" type="checkbox" name="toc" value="1">
-							<span class="form-check-label fw-semibold text-gray-700 fs-6">
-								I Agree <a href="#" class="ms-1 link-primary">Terms and conditions</a>.
-							</span>
-						</label>
-					<div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div></div>
-					<!--end::Input group-->
-
 					<!--begin::Actions-->
 					<div class="text-center">
-						<button type="button" id="kt_sign_up_submit" class="btn btn-lg btn-primary">
+						<a href='./'  id="kt_sign_up_submit" class="btn btn-lg btn-primary">
 							<span class="indicator-label">
-								Submit
+								Login
 							</span>
 							<span class="indicator-progress">
 								Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
 							</span>    
-						</button>
+					</a>
 					</div>
 					<!--end::Actions-->
 				</form>
@@ -95,20 +82,6 @@
 						<!--end::Wrapper-->
 					</div>
 					<!--end::Content-->    
-
-					<!--begin::Footer-->
-					<div class="d-flex flex-center flex-column-auto p-10">
-						<!--begin::Links-->
-						<div class="d-flex align-items-center fw-semibold fs-6">
-							<a href="https://keenthemes.com" class="text-muted text-hover-primary px-2">About</a>
-
-							<a href="mailto:support@keenthemes.com" class="text-muted text-hover-primary px-2">Contact</a>
-							
-							<a href="https://keenthemes.com/products/ceres-html-pro" class="text-muted text-hover-primary px-2">Contact Us</a>
-						</div>
-						<!--end::Links-->
-					</div>
-					<!--end::Footer-->
 				</div>
 				<!--end::Authentication - Sign-up-->
 											</div>
@@ -116,7 +89,6 @@
 		<!--begin::Drawers-->
 		
         <?php include_once("./script.php");?>
-	
 	</body>
 	<!--end::Body-->
 </html>

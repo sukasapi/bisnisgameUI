@@ -75,6 +75,16 @@
 										</div>
 									</div>
 									<!--end::Row-->
+									<!--begin::Row-->
+									<div class="row my-10">
+										<div class="col-md-12 col-xs-12">
+											<h4>Default</h4>
+											<ul class="list-group">
+												<li class="list-group-item"><a href="./login.php">Login</a></li>
+											</ul>
+										</div>
+									</div>
+									<!--end::Row-->
 								</div>
 								<!--end::Card body-->
 							</div>

@@ -19,8 +19,8 @@
 							<!--begin::Header Logo-->
 							<div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
 								<a href="./">
-									<img alt="Logo" src="./assets/media/logos/logo-light.svg" class="h-15px h-lg-20px logo-default" />
-									<img alt="Logo" src="./assets/media/logos/logo-default.svg" class="h-15px h-lg-20px logo-sticky" />
+									<img alt="Logo" src="./assets/media/logos/logo-trans.png" class="h-50px h-lg-65px logo-default" />
+									<img alt="Logo" src="./assets/media/logos/logo-trans.png" class="h-50px h-lg-65px logo-sticky" />
 								</a>
 							</div>
 							<!--end::Header Logo-->
@@ -642,24 +642,6 @@
 											<!--end::Menu wrapper-->
 										</div>
 										<!--end::Notifications-->
-										<!--begin::Chat-->
-										<div class="d-flex align-items-center ms-1 ms-lg-3">
-											<!--begin::Menu wrapper-->
-											<div class="btn btn-icon btn-custom btn-active-light position-relative w-30px h-30px w-md-40px h-md-40px" data-bs-toggle="tooltip" title="Available in &lt;span class='badge badge-pro badge-light-danger fw-bold fs-9 px-2 py-1 ms-1'&gt;Pro&lt;/span&gt; version" data-bs-html="true" data-bs-placement="bottom" id="kt_drawer_chat_toggle">
-												<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
-												<span class="svg-icon svg-icon-1">
-													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<path opacity="0.3" d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z" fill="black" />
-														<rect x="6" y="12" width="7" height="2" rx="1" fill="black" />
-														<rect x="6" y="7" width="12" height="2" rx="1" fill="black" />
-													</svg>
-												</span>
-												<!--end::Svg Icon-->
-												<span class="bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
-											</div>
-											<!--end::Menu wrapper-->
-										</div>
-										<!--end::Chat-->
 										<!--begin::Quick links-->
 										<div class="d-flex align-items-center ms-1 ms-lg-3">
 											<!--begin::Menu wrapper-->

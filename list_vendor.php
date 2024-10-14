@@ -759,7 +759,8 @@
 		<!--end::Activities drawer-->
 		<!--begin::Exolore drawer toggle-->
 		<?php include_once("./explorer_infolb.php");?>
-		
+		<?php include_once("./explorer_policy.php");?>
+		<?php include_once("./explorer_info.php");?>
 		<!--end::Exolore drawer-->
 		<!--end::Drawers-->
 		<!--begin::Modal-->

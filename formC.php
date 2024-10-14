@@ -288,7 +288,9 @@
 		<!--end::Root-->
 		<!--begin::Drawers-->
 		<!--begin::Activities drawer-->
-		<?php include_once("./explorer_infolb.php"); ?>
+		<?php include_once("./explorer_infolb.php");?>
+		<?php include_once("./explorer_policy.php");?>
+		<?php include_once("./explorer_info.php");?>
 		<!--begin::Exolore drawer-->
 		
 		<!--end::Exolore drawer-->
